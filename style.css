@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  background: #f4f4f4;
+}
+.container{
+  max-width: 1000px;
+  margin: auto;
+  overflow: auto;
+  padding: 2rem;
+  
+}
+ul{
+  list-style: none;
+}
+.community{
+  background:#fff;
+  color:grey;
+  padding: 3rem;
+  grid-column: 1 / span 2;
+}
+.community h1{
+  font-size: 2rem;
+}
+.subscription{
+  background: grey;
+  color: #fff;
+  padding: 3rem;
+  padding-top: rem;
+}
+.why{
+  background:#ccc;
+  color: #fff;
+  padding: 3rem;
+  padding-top: 2rem;
+}
+.why li{
+  padding-top: -2rem;
+}
+.body-content{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  border-radius: 5px;
+}
+h1{
+  font-size: 1.3rem;
+  padding-bottom: 1.4rem;
+  font-weight: bold;
+}
+p, li{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+h3{
+  color: limegreen;
+  padding-bottom: 0.7rem;
+  font-size: 1.5rem;
+}
+.dollar{
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  background: limegreen;
+  padding: 1rem;
+  width: 80%;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+  background: #777;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,10 @@
+.body-content{
+  display: grid;
+  grid-template-columns:1fr;
+  
+}
+.community{
+  background:#fff;
+  color:grey;
+  padding: 3rem;
+  grid-column: 1;
